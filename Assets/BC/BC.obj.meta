@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bc_forerunner_darkgray
-    second: {fileID: 2100000, guid: 1c13f91cec7694a4db1833825c21f2ce, type: 2}
+    second: {fileID: 2100000, guid: d6f08de7ad90f4c1a98882c8d143cf8c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bc_forerunner_lightgray
-    second: {fileID: 2100000, guid: 390a7a79ac8e249c782b23b6fe1543b0, type: 2}
+    second: {fileID: 2100000, guid: 2fd1bb35d838045f1a9f9a08f9153dcf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bc_forerunner_red
-    second: {fileID: 2100000, guid: 16b33832755544693a42f8bc15a22576, type: 2}
+    second: {fileID: 2100000, guid: f78af6f2df75f4f0f9499d2ff1e3360d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bc_forerunner_redcircuits
-    second: {fileID: 2100000, guid: 338b7c4cb2436493f9b039796ddf06af, type: 2}
+    second: {fileID: 2100000, guid: 617d67f305b1148b7beee705b78fc938, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -78,7 +78,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: beavercreek_rocks_unwrapped
-    second: {fileID: 2100000, guid: 6097f44d9da694e4d8515fcbdd522250, type: 2}
+    second: {fileID: 2100000, guid: 6cd80eed603304ee8afe4465f4f3ca82, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -88,12 +88,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tree_leafy_leaves
-    second: {fileID: 2100000, guid: df413299808194ac0830b7e7e8be773f, type: 2}
+    second: {fileID: 2100000, guid: 65dc43472ec714144b7caed8678bb94f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tree_leafy_trunk
-    second: {fileID: 2100000, guid: 15f681062b4f24a7d88fd3c2b2fcbe2c, type: 2}
+    second: {fileID: 2100000, guid: efb4920d5b39a40e8903f576481d8f57, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
