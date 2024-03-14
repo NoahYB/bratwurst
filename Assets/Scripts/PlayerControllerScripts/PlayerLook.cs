@@ -5,12 +5,9 @@ using UnityEngine;
 
 public class PlayerLook : NetworkBehaviour
 {
-    public float sensitivity = 100;
+    public float sensitivity = 300;
     private float xRotation;
     private PlayerController playerController;
-        public override void OnNetworkSpawn() {
-        if(!IsOwner) Destroy(this);
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +18,7 @@ public class PlayerLook : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!playerController.enabled) return;
+        if (!playerController.enabled || !IsOwner) return;
         Vector2 mousePos = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         mousePos *= Time.deltaTime * sensitivity;
         xRotation-=mousePos.y;
